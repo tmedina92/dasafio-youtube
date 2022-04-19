@@ -16,6 +16,14 @@
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
+    "web": {
+    "client_id":"668509346502-efrka7s5qpr4kpente7kn9m8s4picsg5.apps.googleusercontent.com",
+    "project_id":"youtube-clone-347623",
+    "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+    "token_uri":"https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret":"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"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
