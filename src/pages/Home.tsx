@@ -1,5 +1,3 @@
-import logoImg from '../assets/imagem/logo.svg';
-
 import '../styles/start.scss';
 
 export function Home() {
@@ -28,7 +26,7 @@ export function Home() {
         <div className="auth-area">
           <div className="auth">
             <a href="#">Create Account</a>
-            <p>&nbsp;or&nbsp;</p>
+            <p>&nbsp;<strong>or</strong>&nbsp;</p>
             <a href="#">Sign-In</a>
           </div>
           <div className="menu">
