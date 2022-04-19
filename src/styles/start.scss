@@ -2,12 +2,17 @@
   display: flex;
   align-items: center;
   height: 100vh;
-
+  
+  a {
+    text-decoration: none;
+    color: #29292e;
+  }
   .header {
     border-bottom: 1px solid #29292e;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 16px 24px 16px;
 
     width: 100%;
     position: fixed;
@@ -16,50 +21,59 @@
     z-index: 100;
     background-color: white;
     
-    img {
-      width: 150px;
-      height: 150px;
-      padding: 8px;
+    .logo {
+      display: flex-start;
+
+      a {
+        font: 28px "Roboto", sans-serif;
+        color: black;
+
+        .logo2 {
+          color: red;
+        }
+      }
+
+      p {
+        font-size: 20px;
+        margin-left: 15px;
+      }
     }
     .search-container {
       display: flex;
       justify-content: space-between;
+      margin-top: 24px;
+
       input {
-        width: 100%;
+        width: 30vw;
+        height: 5vh;
         margin-right: 8px;
+      }
+      button {
+        width: 5vw;
       }
     }
     .search-menu {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
       padding: 16px 16px 16px 0px;
     }
+
     .auth-area {
-      display: column;
+      display: flex-start;
+      
       .auth {
         display: flex;
-        padding: 36px;
+        align-items: right;
+        justify-content: right;
+        margin-bottom: 50px;
       }
-      .menu {
-        display: flex;
-        justify-content:space-between;
-        padding: 16px 16px 16px 0px;
+      .menu a {
+        margin-right: 25px;
       }
-      
+      .menu a:last-child {
+        margin-right: 0;
+      }
     }
   }
-  .body {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    .left-side {
-      flex: 8
-    }
-    .right-side {
-      flex: 4
-    }
-  }
-
 }
