@@ -20,12 +20,14 @@
     "youtube-api-v3-search": "^1.2.1"
   },
   "web": {
-    "client_id": "668509346502-efrka7s5qpr4kpente7kn9m8s4picsg5.apps.googleusercontent.com",
-    "project_id": "youtube-clone-347623",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_secret": "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"
+    "client_id":"668509346502-v5qhmcsuln03u5l3ujsddknaol7f3ivs.apps.googleusercontent.com",
+    "project_id":"youtube-clone-347623",
+    "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+    "token_uri":"https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret":"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",
+    "redirect_uris":["http://localhost:3000/oauth2callback"],
+    "javascript_origins":["http://localhost:3000"]
   },
   "scripts": {
     "start": "react-scripts start",
